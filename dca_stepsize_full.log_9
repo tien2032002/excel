@@ -1,0 +1,1035 @@
+
+                                   PrimeSim 
+
+                Version V-2023.12-1 for linux64 - Jan 04, 2024 
+
+                    Copyright (c) 2003 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+---------------------------------------------------------------------------------
+
+PrimeSim SPICE V-2023.12-1 RHEL64  (Compiled on Jan  4 2024 at 16:36:04 (US-Pacific)) build id: 8650753
+
+Hostname: in01sgll02-64-023, Username: baotien, PID: 2426582
+Tool Path: /global/apps/primesim_2023.12-1/primesim/platform/linux64/primesim_spice
+
+**** Environment Variables
+(NAME)               (VALUE) 
+LD_LIBRARY_PATH      /global/apps/primesim_2023.12-1/lib/linux64:/global/apps/primesim_2023.12-1/python/linux64/lib:/global/apps/primesim_2023.12-1/GNU/linux64/binutils/lib:/global/apps/primesim_2023.12-1/lib/linux64:/global/apps/primesim_2023.12-1/python/linux64/lib:/global/apps/primesim_2023.12-1/GNU/linux64/binutils/lib:/usr/local/lib 
+PRIMESIM_HOME        /global/apps/primesim_2023.12-1 
+****
+
+OS: AlmaLinux release 8.4 (Electric Cheetah)
+CPU model name	: AMD EPYC 7713P 64-Core Processor, Speed : 2000.000(MHz), Cache 16384K (L1 64K Data, L1 64K Instruction, L2 512K Unified, L3 16384K Unified)
+
+Parallel run on 2 processes from 1 machines:
+	in01sgll02-64-023:2 
+
+Started at Mon Jun  2 08:47:07 2025
+Command line: 	/global/apps/primesim_2023.12-1/bin/primesim dca_stepsize_full.sp9 -spice -hsp -mt 2 
+Working Directory: /mnt/baotien/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/dca_stepsize_full.sp9
+
+INFO! read global configuration file (/global/apps/primesim_2023.12-1/primesim.cfg)
+
+                </remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option>
+                </remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/primesim.option>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/mos.lib>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6.l>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_prot_0.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_nch_svt_mac_1.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_pch_svt_mac_2.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/mos_lvt.lib>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_prot_3.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_nch_lvt_mac_4.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_pch_lvt_mac_5.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_prot_12.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_nch_lvtll_mac_13.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_pch_lvtll_mac_14.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/mos_ulvt.lib>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_prot_6.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_nch_ulvt_mac_7.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_pch_ulvt_mac_8.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_prot_15.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_nch_ulvtll_mac_16.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_pch_ulvtll_mac_17.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/mos_elvt.lib>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_prot_9.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_nch_elvt_mac_10.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_pch_elvt_mac_11.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/res.lib>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_rhim_fn_42.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/net_divider.l>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/cap.lib>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/crn2p_lct_sp_v0d9_2p6.l>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/diode.lib>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_ndio_33.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_nwdio_34.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_pdio_35.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_ndio_ntn_36.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_dnwpsub_37.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_pwdnw_38.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_ndio_hia_39.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_pdio_hia_40.inc>
+                </slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/.ruos_cln2p_sp_v0d9_2p6_l_ndio_hia_ntn_41.inc>
+                </remote/cad-rep/proj/shared/wiremodel/tsmc2p/19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM/ver0.9_2b_rel2.0.0/wiremodel_tsmc2p_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.l>
+                </remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/dwc_ucie2phy_tx_tb_dca_train_sweep_std.sp>
+                </remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_HDB48ULT02_INV_4_custom_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz>
+                </remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz>
+                </remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/dca_stepsize_vector.sp>
+                </remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/dca_stepsize_full.inc>
+
+Resource Usage for Reading Netlist(self/total): 2.0/2.0 sec (cpu), 3.0/3.0 sec (elapsed), 1930.6/1930.6 MB
+
+WARNING! unknown option newtol (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:8)
+WARNING! unknown option relmos (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:8)
+WARNING! unknown option absmos (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:8)
+WARNING! unknown option relv (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:8)
+WARNING! unknown option relvdc (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:8)
+WARNING! option accurate=1 (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:11) [ignored]
+WARNING! unknown option maxord (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:12)
+WARNING! unknown option method (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:13)
+INFO: ineffective option 'nomod' (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:15) [ignored]
+WARNING! unknown option brief (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:15)
+WARNING! unknown option artist (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:16)
+WARNING! unknown option psf (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/hspice.option:16)
+WARNING! value for option runlvl is overwritten (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/primesim.option:3)
+WARNING! value for option sampling_method is overwritten (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/primesim.option:8)
+WARNING! value for option post is overwritten (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/primesim.option:16)
+WARNING! value for option probe is overwritten (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/primesim.option:17)
+INFO:"WARNING! unknown option ... " exceeds limit set by primesim_warn_limit/warnlimit/warnlim. Additional WARNINGs will not be printed. Number of WARNINGs not printed will be posted at the end of the simulation
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+WARNING! value for option split_xmult_mc is overwritten (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/mos_lvt.lib:107)
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+WARNING! warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+INFO:"WARNING! warning" exceeds limit set by primesim_warn_limit/warnlimit/warnlim. Additional WARNINGs will not be printed. Number of WARNINGs not printed will be posted at the end of the simulation
+WARNING! value for option split_xmult_mc is overwritten (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/mos_ulvt.lib:107)
+WARNING! value for option split_xmult_mc is overwritten (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/mos_elvt.lib:82)
+WARNING! value for option split_xmult_mc is overwritten (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/res.lib:10)
+WARNING! value for option split_xmult_mc is overwritten (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/cap.lib:13)
+WARNING! value for option split_xmult_mc is overwritten (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/diode.lib:3)
+INFO:"WARNING! value for option ... is overwritten " exceeds limit set by primesim_warn_limit/warnlimit/warnlim. Additional WARNINGs will not be printed. Number of WARNINGs not printed will be posted at the end of the simulation
+****
+TMI: library "/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6_dir/RH_64/libTMImodel.so" opened.
+****
+
+Parsing '/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/dca_full_training.va'
+Parsing '/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/dca_adc.va'
+Parsing '/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/dca_input_mux.va'
+
+WARNING! *pvaW*        Variable 'temp' is used without declaration, set to real. To error out, setenv PVA_AUTO_DECLARE 0 (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/dca_full_training.va:41)
+WARNING! *pvaW*        Variable 'coarse_ctl' is used without declaration, set to real. To error out, setenv PVA_AUTO_DECLARE 0 (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/dca_adc.va:32)
+WARNING! *pvaW*        Variable 'fine_ctl' is used without declaration, set to real. To error out, setenv PVA_AUTO_DECLARE 0 (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/dca_adc.va:33)
+
+ successfully done.
+
+@ PROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+WARNING! duplicated param 'totalflag_mos_svt' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/mos.lib:87)
+WARNING! duplicated param 'iboffwcflag_mos_svt' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/hspice/mos.lib:88)
+WARNING! duplicated param 'phys_id' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6.l:450)
+WARNING! duplicated param 'dagetime' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6.l:451)
+WARNING! duplicated param 'age_unit' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6.l:452)
+WARNING! duplicated param 'tr_start' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6.l:453)
+WARNING! duplicated param 'tr_end' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6.l:454)
+WARNING! duplicated param 'r_hcin' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6.l:455)
+WARNING! duplicated param 'r_hcip' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6.l:456)
+WARNING! duplicated param 'r_btin' (/slowfs/in01dwt2p102/fab/f101-tsmc/2nm/logic/N2P/0.75V/models/ver0.9_2p6/orig/cln2p_sp_v0d9_2p6.l:457)
+INFO:"WARNING! duplicated ...param '...' ..." exceeds limit set by primesim_warn_limit/warnlimit/warnlim. Additional WARNINGs will not be printed. Number of WARNINGs not printed will be posted at the end of the simulation
+@ PROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ PROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ PROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ PROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ PROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+@ UNPROTECT (encrypted file)
+
+**** Used Options:
+   gmindc = 1e-12
+   gmin = 1e-13
+   ingold = 2
+   numdgt = 7
+   parhier = local
+   runlvl = 6
+   macmod = 3
+   sampling_method = srs
+   post = 2
+   probe = 1
+   primesim_rcred = "1"
+   primesim_method = egear
+   measdgt = 5
+   primesim_mcseed = 3145
+   split_xmult_mc = "1"
+   primesim_convlevel = 1
+   primesim_negres = 0
+****
+
+**** Macro Options:
+****
+  Main Setting: runlvl
+Resource Usage for Parsing(self/total): 2.3/4.3 sec (cpu), 2.0/5.0 sec (elapsed), 209.4/2140.0 MB
+
+
+License: Checked out CKTSIMMC(1) successfully from :26585@in01genlic 
+License: Checked out CKTSIMSPICE(2) successfully from :26585@in01genlic 
+License: Checked out PRIMESIMSPICE_LIC(1) successfully from :26585@in01genlic 
+
+Resource Usage for License(self/total): 0.0/4.3 sec (cpu), 0.0/5.0 sec (elapsed), 1.6/2141.6 MB
+
+Elapsed checking license time: 0.0 seconds
+
+Title: 'tsmc2p mos_ssg moslvt_ssg mosulvt_ssg moselvt_ssg res_h cap_h dio_t beol_rcworst typical -20 0.675'
+
+WARNING! option etmif_noshare_subckt is not supported
+
+**** Protected Information
+  0 subckt and 0 instance is protected
+****
+
+
+WARNING! resistor 'r1_58' in subckt 'tx_hdb48ult02_inv_4_custom' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_HDB48ULT02_INV_4_custom_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:119) [shorted]
+WARNING! resistor 'r1_59' in subckt 'tx_hdb48ult02_inv_4_custom' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_HDB48ULT02_INV_4_custom_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:120) [shorted]
+WARNING! resistor 'r4_35' in subckt 'tx_hdb48ult02_inv_4_custom' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_HDB48ULT02_INV_4_custom_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:509) [shorted]
+WARNING! resistor 'r4_36' in subckt 'tx_hdb48ult02_inv_4_custom' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_HDB48ULT02_INV_4_custom_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:510) [shorted]
+WARNING! resistor 'r1_8965' in subckt 'tx_qcc_dca_std' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:12063) [shorted]
+WARNING! resistor 'r1_8966' in subckt 'tx_qcc_dca_std' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:12064) [shorted]
+WARNING! resistor 'r1_8967' in subckt 'tx_qcc_dca_std' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:12065) [shorted]
+WARNING! resistor 'r1_8968' in subckt 'tx_qcc_dca_std' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:12066) [shorted]
+WARNING! resistor 'r1_8969' in subckt 'tx_qcc_dca_std' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:12067) [shorted]
+WARNING! resistor 'r1_8970' in subckt 'tx_qcc_dca_std' has small R(0.001) less than or equal to PRIMESIM_RESMIN(0.001) (tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:12068) [shorted]
+INFO:"WARNING! resistor '...' in ... has small R" exceeds limit set by primesim_warn_limit/warnlimit/warnlim. Additional WARNINGs will not be printed. Number of WARNINGs not printed will be posted at the end of the simulation
+WARNING! 'r1_3171' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6269)
+WARNING! 'r1_3172' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6270)
+WARNING! 'r1_3173' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6271)
+WARNING! 'r1_3174' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6272)
+WARNING! 'r1_3175' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6273)
+WARNING! 'r1_3176' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6274)
+WARNING! 'r1_3177' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6275)
+WARNING! 'r1_3178' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6276)
+WARNING! 'r1_3179' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6277)
+WARNING! 'r1_3180' removed due to shorted terminals (/remote/in01sgnfs00142/baotien/batch_sim/ucie/h209-ucie-a-tsmc2p-075/rel0.10_int/tx_qcc_dca/dca_stepsize_post/include/tx_qcc_dca_std_rcc_typical_19M_1X_h_1Xb_v_1Xc_h_1Xd_v_1Ya_h_1Yb_v_6Y_hvhvhv_2Yy2Yx2R_SHP2MIM.spf.gz:6278)
+INFO:"WARNING! '...' removed due to shorted terminals ..." exceeds limit set by primesim_warn_limit/warnlimit/warnlim. Additional WARNINGs will not be printed. Number of WARNINGs not printed will be posted at the end of the simulation
+**** expand probe
+   probe pattern 'v(*)' (level=2) with exception matches with 61 nodes on toplevel (dca_stepsize_full.sp9:51)
+   probe pattern 'v(*)' (level=all) with exception matches with 282 nodes on toplevel (dca_stepsize_full.sp9:52)
+****
+
+  *********************************************************
+  ** TMI Share Library             Version is V121061.100024 (Oct 24 2024 08:33:24)
+  ** Built OS                      Version is CentOS release 6.6 (Final)
+  ** Built compiler                Version is gcc version 4.4.7 20120313 (Red Hat 4.4.7-18) (GCC)
+  *********************************************************
+
+WARNING! ':xtop.xdca.r1_62' removed due to a dangling terminal
+WARNING! ':xtop.xdca.r1_63' removed due to a dangling terminal
+WARNING! ':xtop.xdca.r1_64' removed due to a dangling terminal
+WARNING! ':xtop.xdca.r1_65' removed due to a dangling terminal
+WARNING! ':xtop.xdca.r1_66' removed due to a dangling terminal
+WARNING! ':xtop.xdca.r1_67' removed due to a dangling terminal
+WARNING! ':xtop.xdca.r1_68' removed due to a dangling terminal
+WARNING! ':xtop.xdca.r1_69' removed due to a dangling terminal
+WARNING! ':xtop.xdca.r1_70' removed due to a dangling terminal
+WARNING! ':xtop.xdca.r1_71' removed due to a dangling terminal
+INFO:"WARNING! '...:...' removed due to a dangling terminal" exceeds limit set by primesim_warn_limit/warnlimit/warnlim. Additional WARNINGs will not be printed. Number of WARNINGs not printed will be posted at the end of the simulation
+WARNING! node ':net169' has only 1 connection to a Verilog-A module.
+WARNING! node ':net168' has only 1 connection to a Verilog-A module.
+WARNING! node ':xtop.xdca.vss:6174' has only 1 connection to a resistor.
+WARNING! node ':xtop.xdca.vss:6171' has only 1 connection to a resistor.
+WARNING! node ':xtop.xdca.vss:6170' has only 1 connection to a resistor.
+WARNING! node ':xtop.xdca.vss:6167' has only 1 connection to a resistor.
+WARNING! node ':xtop.xdca.vss:6166' has only 1 connection to a resistor.
+WARNING! node ':xtop.xdca.vss:6163' has only 1 connection to a resistor.
+WARNING! node ':xtop.xdca.vss:6162' has only 1 connection to a resistor.
+WARNING! node ':xtop.xdca.vss:6159' has only 1 connection to a resistor.
+INFO:"WARNING! node '...:...' has only 1 connection to a ...." exceeds limit set by primesim_warn_limit/warnlimit/warnlim. Additional WARNINGs will not be printed. Number of WARNINGs not printed will be posted at the end of the simulation
+
+  # MOSFET   : 1043
+  # Diode    : 3
+  # Resistor : 33340 (Min/Max=0.0161754/2433.21) 
+  # Capacitor: 68494 (Min/Max=2.03063e-26/5.88015e-15) 
+  # V Source : 5 (Max/Min=0.675V/0V)
+  # Verilog-A: 3
+INFO: POSTLAYOUT (#Res/#MOS = 23.644k/1.043k = 22.6692)
+
+  TEMP=-20
+Resource Usage for Circuit Elaboration(self/total): 1.0/5.3 sec (cpu), 1.0/6.0 sec (elapsed), 80.0/2221.6 MB
+
+Generating MOS models ...
+  Table value up to 1V
+  Model 4/5
+  Level=72 Version=106.1
+
+INFO: .option gmin=1e-13 is scaled to gmin=1e-16 for BSIM-CMG.
+INFO: .option gmindc=1e-12 is scaled to gmindc=1e-15 for BSIM-CMG.
+
+Resource Usage for MOS Model(self/total): 0.0/5.3 sec (cpu), 0.0/6.0 sec (elapsed), 6.0/2227.6 MB
+
+
+Building Connectivity ...
+Resource Usage for Connectivity Building(self/total): 0.2/5.5 sec (cpu), 1.0/7.0 sec (elapsed), -18.2/2209.4 MB
+
+Building DB ...
+Resource Usage for DB Building(self/total): 0.6/6.1 sec (cpu), 1.0/8.0 sec (elapsed), 82.8/2292.1 MB
+
+Initializing ...
+Resource Usage for Initialization(self/total): 0.0/6.1 sec (cpu), 0.0/8.0 sec (elapsed), 0.0/2292.1 MB
+
+
+Building Matrices ...
+Resource Usage for Matrix Building(self/total): 0.0/6.1 sec (cpu), 0.0/8.0 sec (elapsed), 6.9/2299.0 MB
+
+Starting DC Initialization ...
+    ic file 'dca_stepsize_full.ic'
+  DC converged at step 1
+
+End of DC Initialization
+Resource Usage for DC Initialization(self/total): 1.1/7.2 sec (cpu), 0.0/8.0 sec (elapsed), 5.0/2304.0 MB
+
+Preparing Outputs ...
+  # probed signals  : 282
+  # measures        : 654
+Resource Usage for Output Preparation(self/total): 0.1/7.3 sec (cpu), 0.0/8.0 sec (elapsed), 2.0/2306.0 MB
+
+Starting Transient Analysis ...
+  Important settings:
+	runlvl = 6
+	tolscale = 1
+    4.20ns (10.0 %) at Mon Jun  2 08:47:38 2025 (23s)
+    8.40ns (20.0 %) at Mon Jun  2 08:48:00 2025 (22s)
+   12.60ns (30.0 %) at Mon Jun  2 08:48:19 2025 (19s)
+   16.80ns (40.0 %) at Mon Jun  2 08:48:38 2025 (19s)
+   21.00ns (50.0 %) at Mon Jun  2 08:48:57 2025 (19s)
+   25.20ns (60.0 %) at Mon Jun  2 08:49:15 2025 (18s)
+   29.40ns (70.0 %) at Mon Jun  2 08:49:34 2025 (19s)
+   33.60ns (80.0 %) at Mon Jun  2 08:49:53 2025 (19s)
+   37.80ns (90.0 %) at Mon Jun  2 08:50:12 2025 (19s)
+   42.00ns (100.0 %) at Mon Jun  2 08:50:31 2025 (19s)
+    finished at 42ns
+    output file 'dca_stepsize_full.fsdb'
+
+ dcdstepfinemin= 5.42631e-01
+ dcdstepfinemax= 7.41677e-01
+ dcdstepcoarsemin= 2.67915e+00
+ dcdstepcoarsemax= 3.24978e+00
+     dcdmin= -1.59476e+01
+     dcdmax= 1.57795e+01
+ dcddeltamin= 3.76048e-01
+ dcddeltamax= 9.91987e-01
+ dcd_dnl_min= -1.35080e-01
+ dcd_dnl_max= 6.92247e-02
+ dcd_inl_min= -1.85797e-01
+ dcd_inl_max= 2.13437e-01
+ dcdstepfine_c0min= 5.53542e-01
+ dcdstepfine_c1min= 5.51395e-01
+ dcdstepfine_c2min= 5.56542e-01
+ dcdstepfine_c3min= 5.58823e-01
+ dcdstepfine_c4min= 5.52901e-01
+ dcdstepfine_c5min= 5.42631e-01
+ dcdstepfine_c6min= 5.53089e-01
+ dcdstepfine_c7min= 5.52814e-01
+ dcdstepfine_c8min= 5.56893e-01
+ dcdstepfine_c0max= 7.36599e-01
+ dcdstepfine_c1max= 7.27924e-01
+ dcdstepfine_c2max= 7.41677e-01
+ dcdstepfine_c3max= 7.35667e-01
+ dcdstepfine_c4max= 7.32290e-01
+ dcdstepfine_c5max= 7.16783e-01
+ dcdstepfine_c6max= 7.14113e-01
+ dcdstepfine_c7max= 7.07596e-01
+ dcdstepfine_c8max= 6.91241e-01
+ dcdstepfine_c0avg= 6.01519e-01
+ dcdstepfine_c1avg= 6.04211e-01
+ dcdstepfine_c2avg= 6.09570e-01
+ dcdstepfine_c3avg= 6.07515e-01
+ dcdstepfine_c4_down_avg= 6.07917e-01
+ dcdstepfine_c4_up_avg= 6.11776e-01
+ dcdstepfine_c5avg= 6.11856e-01
+ dcdstepfine_c6avg= 6.15859e-01
+ dcdstepfine_c7avg= 6.17289e-01
+ dcdstepfine_c8avg= 6.09881e-01
+ dcdstepcoarse_c0vs1min= 3.22439e+00
+ dcdstepcoarse_c1vs2min= 3.08909e+00
+ dcdstepcoarse_c2vs3min= 2.89311e+00
+ dcdstepcoarse_c3vs4min= 3.06915e+00
+ dcdstepcoarse_c4vs5min= 3.18730e+00
+ dcdstepcoarse_c5vs6min= 2.67915e+00
+ dcdstepcoarse_c6vs7min= 3.00501e+00
+ dcdstepcoarse_c7vs8min= 3.18242e+00
+ dcdstepcoarse_c0vs1max= 3.24978e+00
+ dcdstepcoarse_c1vs2max= 3.12124e+00
+ dcdstepcoarse_c2vs3max= 2.90616e+00
+ dcdstepcoarse_c3vs4max= 3.08317e+00
+ dcdstepcoarse_c4vs5max= 3.21184e+00
+ dcdstepcoarse_c5vs6max= 2.73296e+00
+ dcdstepcoarse_c6vs7max= 3.02634e+00
+ dcdstepcoarse_c7vs8max= 3.22687e+00
+ dcdstepcoarse_c0vs1avg= 3.24008e+00
+ dcdstepcoarse_c1vs2avg= 3.10891e+00
+ dcdstepcoarse_c2vs3avg= 2.90079e+00
+ dcdstepcoarse_c3vs4avg= 3.07560e+00
+ dcdstepcoarse_c4vs5avg= 3.19719e+00
+ dcdstepcoarse_c5vs6avg= 2.70438e+00
+ dcdstepcoarse_c6vs7avg= 3.01562e+00
+ dcdstepcoarse_c7vs8avg= 3.20503e+00
+ dcdstep_c0f0vs1= 7.36599e-01
+ dcdstep_c0f1vs2= 6.34170e-01
+ dcdstep_c0f2vs3= 5.53542e-01
+ dcdstep_c0f3vs4= 5.59318e-01
+ dcdstep_c0f4vs5= 5.66258e-01
+ dcdstep_c0f5vs6= 5.59227e-01
+ dcdstep_c1f0vs1= 7.27924e-01
+ dcdstep_c1f1vs2= 6.52643e-01
+ dcdstep_c1f2vs3= 5.60456e-01
+ dcdstep_c1f3vs4= 5.51395e-01
+ dcdstep_c1f4vs5= 5.63770e-01
+ dcdstep_c1f5vs6= 5.69080e-01
+ dcdstep_c2f0vs1= 7.41677e-01
+ dcdstep_c2f1vs2= 6.56312e-01
+ dcdstep_c2f2vs3= 5.64978e-01
+ dcdstep_c2f3vs4= 5.59808e-01
+ dcdstep_c2f4vs5= 5.56542e-01
+ dcdstep_c2f5vs6= 5.78103e-01
+ dcdstep_c3f0vs1= 7.35667e-01
+ dcdstep_c3f1vs2= 6.58181e-01
+ dcdstep_c3f2vs3= 5.64222e-01
+ dcdstep_c3f3vs4= 5.58823e-01
+ dcdstep_c3f4vs5= 5.63147e-01
+ dcdstep_c3f5vs6= 5.65047e-01
+ dcdstep_c4f0vs1= 7.32290e-01
+ dcdstep_c4f1vs2= 6.69341e-01
+ dcdstep_c4f2vs3= 5.67085e-01
+ dcdstep_c4f3vs4= 5.52901e-01
+ dcdstep_c4f4vs5= 5.57761e-01
+ dcdstep_c4f5vs6= 5.68123e-01
+ dcdstep_c4f6vs7= 5.67233e-01
+ dcdstep_c4f7vs8= 5.69798e-01
+ dcdstep_c4f8vs9= 5.60695e-01
+ dcdstep_c4f9vs10= 5.75736e-01
+ dcdstep_c4f10vs11= 6.89401e-01
+ dcdstep_c4f11vs12= 7.07794e-01
+ dcdstep_c5f6vs7= 5.57355e-01
+ dcdstep_c5f7vs8= 5.94335e-01
+ dcdstep_c5f8vs9= 5.42631e-01
+ dcdstep_c5f9vs10= 5.85812e-01
+ dcdstep_c5f10vs11= 6.74219e-01
+ dcdstep_c5f11vs12= 7.16783e-01
+ dcdstep_c6f6vs7= 5.93570e-01
+ dcdstep_c6f7vs8= 5.77220e-01
+ dcdstep_c6f8vs9= 5.53089e-01
+ dcdstep_c6f9vs10= 5.70173e-01
+ dcdstep_c6f10vs11= 7.14113e-01
+ dcdstep_c6f11vs12= 6.86991e-01
+ dcdstep_c7f6vs7= 5.92621e-01
+ dcdstep_c7f7vs8= 5.70906e-01
+ dcdstep_c7f8vs9= 5.52814e-01
+ dcdstep_c7f9vs10= 5.87024e-01
+ dcdstep_c7f10vs11= 6.92774e-01
+ dcdstep_c7f11vs12= 7.07596e-01
+ dcdstep_c8f6vs7= 5.76062e-01
+ dcdstep_c8f7vs8= 5.56893e-01
+ dcdstep_c8f8vs9= 5.73721e-01
+ dcdstep_c8f9vs10= 5.73151e-01
+ dcdstep_c8f10vs11= 6.88216e-01
+ dcdstep_c8f11vs12= 6.91241e-01
+ dcdstep_c0f0vsc1= 3.23307e+00
+ dcdstep_c0f1vsc1= 3.22439e+00
+ dcdstep_c0f2vsc1= 3.24286e+00
+ dcdstep_c0f3vsc1= 3.24978e+00
+ dcdstep_c0f4vsc1= 3.24185e+00
+ dcdstep_c0f5vsc1= 3.23937e+00
+ dcdstep_c0f6vsc1= 3.24922e+00
+ dcdstep_c1f0vsc2= 3.08909e+00
+ dcdstep_c1f1vsc2= 3.10284e+00
+ dcdstep_c1f2vsc2= 3.10651e+00
+ dcdstep_c1f3vsc2= 3.11103e+00
+ dcdstep_c1f4vsc2= 3.11944e+00
+ dcdstep_c1f5vsc2= 3.11221e+00
+ dcdstep_c1f6vsc2= 3.12124e+00
+ dcdstep_c2f0vsc3= 2.90544e+00
+ dcdstep_c2f1vsc3= 2.89943e+00
+ dcdstep_c2f2vsc3= 2.90130e+00
+ dcdstep_c2f3vsc3= 2.90054e+00
+ dcdstep_c2f4vsc3= 2.89956e+00
+ dcdstep_c2f5vsc3= 2.90616e+00
+ dcdstep_c2f6vsc3= 2.89311e+00
+ dcdstep_c3f0vsc4= 3.07252e+00
+ dcdstep_c3f1vsc4= 3.06915e+00
+ dcdstep_c3f2vsc4= 3.08031e+00
+ dcdstep_c3f3vsc4= 3.08317e+00
+ dcdstep_c3f4vsc4= 3.07725e+00
+ dcdstep_c3f5vsc4= 3.07186e+00
+ dcdstep_c3f6vsc4= 3.07494e+00
+ dcdstep_c4f6vsc5= 3.19718e+00
+ dcdstep_c4f7vsc5= 3.18730e+00
+ dcdstep_c4f8vsc5= 3.21184e+00
+ dcdstep_c4f9vsc5= 3.19378e+00
+ dcdstep_c4f10vsc5= 3.20385e+00
+ dcdstep_c4f11vsc5= 3.18867e+00
+ dcdstep_c4f12vsc5= 3.19766e+00
+ dcdstep_c5f6vsc6= 2.67915e+00
+ dcdstep_c5f7vsc6= 2.71536e+00
+ dcdstep_c5f8vsc6= 2.69825e+00
+ dcdstep_c5f9vsc6= 2.70871e+00
+ dcdstep_c5f10vsc6= 2.69307e+00
+ dcdstep_c5f11vsc6= 2.73296e+00
+ dcdstep_c5f12vsc6= 2.70317e+00
+ dcdstep_c6f6vsc7= 3.01703e+00
+ dcdstep_c6f7vsc7= 3.01608e+00
+ dcdstep_c6f8vsc7= 3.00977e+00
+ dcdstep_c6f9vsc7= 3.00949e+00
+ dcdstep_c6f10vsc7= 3.02634e+00
+ dcdstep_c6f11vsc7= 3.00501e+00
+ dcdstep_c6f12vsc7= 3.02561e+00
+ dcdstep_c7f6vsc8= 3.22687e+00
+ dcdstep_c7f7vsc8= 3.21031e+00
+ dcdstep_c7f8vsc8= 3.19630e+00
+ dcdstep_c7f9vsc8= 3.21720e+00
+ dcdstep_c7f10vsc8= 3.20333e+00
+ dcdstep_c7f11vsc8= 3.19877e+00
+ dcdstep_c7f12vsc8= 3.18242e+00
+ dcddelta_c0f6vsc1f0= 3.76048e-01
+ dcddelta_c1f6vsc2f0= 5.36183e-01
+ dcddelta_c2f6vsc3f0= 7.51978e-01
+ dcddelta_c3f6vsc4f0= 5.72564e-01
+ dcddelta_c4f12vsc5f6= 4.73474e-01
+ dcddelta_c5f12vsc6f6= 9.91987e-01
+ dcddelta_c6f12vsc7f6= 6.78126e-01
+ dcddelta_c7f12vsc8f6= 4.76866e-01
+   dcd_c0f0= 4.40054e+01
+   dcd_c0f1= 4.47420e+01
+   dcd_c0f2= 4.53762e+01
+   dcd_c0f3= 4.59297e+01
+   dcd_c0f4= 4.64890e+01
+   dcd_c0f5= 4.70553e+01
+   dcd_c0f6= 4.76145e+01
+   dcd_c1f0= 4.72385e+01
+   dcd_c1f1= 4.79664e+01
+   dcd_c1f2= 4.86190e+01
+   dcd_c1f3= 4.91795e+01
+   dcd_c1f4= 4.97309e+01
+   dcd_c1f5= 5.02947e+01
+   dcd_c1f6= 5.08637e+01
+   dcd_c2f0= 5.03276e+01
+   dcd_c2f1= 5.10692e+01
+   dcd_c2f2= 5.17255e+01
+   dcd_c2f3= 5.22905e+01
+   dcd_c2f4= 5.28503e+01
+   dcd_c2f5= 5.34069e+01
+   dcd_c2f6= 5.39850e+01
+   dcd_c3f0= 5.32330e+01
+   dcd_c3f1= 5.39687e+01
+   dcd_c3f2= 5.46269e+01
+   dcd_c3f3= 5.51911e+01
+   dcd_c3f4= 5.57499e+01
+   dcd_c3f5= 5.63130e+01
+   dcd_c3f6= 5.68781e+01
+   dcd_c4f0= 5.63055e+01
+   dcd_c4f1= 5.70378e+01
+   dcd_c4f2= 5.77072e+01
+   dcd_c4f3= 5.82742e+01
+   dcd_c4f4= 5.88271e+01
+   dcd_c4f5= 5.93849e+01
+ dcd_c4f6_up= 3.95010e+01
+ dcd_c4f6_down= 5.99530e+01
+   dcd_c4f7= 4.00682e+01
+   dcd_c4f8= 4.06380e+01
+   dcd_c4f9= 4.11987e+01
+  dcd_c4f10= 4.17744e+01
+  dcd_c4f11= 4.24638e+01
+  dcd_c4f12= 4.31716e+01
+   dcd_c5f6= 4.26982e+01
+   dcd_c5f7= 4.32555e+01
+   dcd_c5f8= 4.38499e+01
+   dcd_c5f9= 4.43925e+01
+  dcd_c5f10= 4.49783e+01
+  dcd_c5f11= 4.56525e+01
+  dcd_c5f12= 4.63693e+01
+   dcd_c6f6= 4.53773e+01
+   dcd_c6f7= 4.59709e+01
+   dcd_c6f8= 4.65481e+01
+   dcd_c6f9= 4.71012e+01
+  dcd_c6f10= 4.76714e+01
+  dcd_c6f11= 4.83855e+01
+  dcd_c6f12= 4.90725e+01
+   dcd_c7f6= 4.83943e+01
+   dcd_c7f7= 4.89870e+01
+   dcd_c7f8= 4.95579e+01
+   dcd_c7f9= 5.01107e+01
+  dcd_c7f10= 5.06977e+01
+  dcd_c7f11= 5.13905e+01
+  dcd_c7f12= 5.20981e+01
+   dcd_c8f6= 5.16212e+01
+   dcd_c8f7= 5.21973e+01
+   dcd_c8f8= 5.27542e+01
+   dcd_c8f9= 5.33279e+01
+  dcd_c8f10= 5.39010e+01
+  dcd_c8f11= 5.45893e+01
+  dcd_c8f12= 5.52805e+01
+ dcdstep_avg_c0= 6.01519e-01
+ dcdstep_avg_c1= 6.04211e-01
+ dcdstep_avg_c2= 6.09570e-01
+ dcdstep_avg_c3= 6.07515e-01
+ dcdstep_avg_c4_down= 6.07917e-01
+ dcdstep_avg_c4_up= 6.11776e-01
+ dcdstep_avg_c5= 6.11856e-01
+ dcdstep_avg_c6= 6.15859e-01
+ dcdstep_avg_c7= 6.17289e-01
+ dcdstep_avg_c8= 6.09881e-01
+ dcd_dnl_c0min= -1.35080e-01
+ dcd_dnl_c1min= -1.23712e-01
+ dcd_dnl_c2min= -1.32107e-01
+ dcd_dnl_c3min= -1.28153e-01
+ dcd_dnl_c4min= -1.24373e-01
+ dcd_dnl_c5min= -1.04927e-01
+ dcd_dnl_c6min= -9.82536e-02
+ dcd_dnl_c7min= -9.03067e-02
+ dcd_dnl_c8min= -8.13601e-02
+ dcd_dnl_c0max= 4.79765e-02
+ dcd_dnl_c1max= 5.28165e-02
+ dcd_dnl_c2max= 5.30282e-02
+ dcd_dnl_c3max= 4.86915e-02
+ dcd_dnl_c4max= 5.50154e-02
+ dcd_dnl_c5max= 6.92247e-02
+ dcd_dnl_c6max= 6.27704e-02
+ dcd_dnl_c7max= 6.44751e-02
+ dcd_dnl_c8max= 5.29875e-02
+ dcd_dnl_c0avg= 0.00000e+00
+ dcd_dnl_c1avg= 0.00000e+00
+ dcd_dnl_c2avg= 3.70074e-17
+ dcd_dnl_c3avg= 0.00000e+00
+ dcd_dnl_c4_down_avg= 0.00000e+00
+ dcd_dnl_c4_up_avg= 3.70074e-17
+ dcd_dnl_c5avg= -3.70074e-17
+ dcd_dnl_c6avg= -3.70074e-17
+ dcd_dnl_c7avg= 0.00000e+00
+ dcd_dnl_c8avg= -3.70074e-17
+ dcd_inl_c0min= -1.67731e-01
+ dcd_inl_c1min= -1.72144e-01
+ dcd_inl_c2min= -1.78849e-01
+ dcd_inl_c3min= -1.78819e-01
+ dcd_inl_c4min= -1.85797e-01
+ dcd_inl_c5min= -2.22045e-16
+ dcd_inl_c6min= -2.22045e-16
+ dcd_inl_c7min= 0.00000e+00
+ dcd_inl_c8min= -2.22045e-16
+ dcd_inl_c0max= 0.00000e+00
+ dcd_inl_c1max= 0.00000e+00
+ dcd_inl_c2max= 2.22045e-16
+ dcd_inl_c3max= 0.00000e+00
+ dcd_inl_c4max= 2.13437e-01
+ dcd_inl_c5max= 1.67290e-01
+ dcd_inl_c6max= 1.69386e-01
+ dcd_inl_c7max= 1.65792e-01
+ dcd_inl_c8max= 1.59695e-01
+ dcd_inl_c0avg= -9.04018e-02
+ dcd_inl_c1avg= -8.91582e-02
+ dcd_inl_c2avg= -9.35294e-02
+ dcd_inl_c3avg= -9.53001e-02
+ dcd_inl_c4_down_avg= -9.74796e-02
+ dcd_inl_c4_up_avg= 1.29515e-01
+ dcd_inl_c5avg= 8.99976e-02
+ dcd_inl_c6avg= 7.45726e-02
+ dcd_inl_c7avg= 8.12241e-02
+ dcd_inl_c8avg= 8.07744e-02
+ dcd_dnl_c0_1= -1.35080e-01
+ dcd_dnl_c0_2= -3.26508e-02
+ dcd_dnl_c0_3= 4.79765e-02
+ dcd_dnl_c0_4= 4.22007e-02
+ dcd_dnl_c0_5= 3.52613e-02
+ dcd_dnl_c0_6= 4.22923e-02
+ dcd_dnl_c1_1= -1.23712e-01
+ dcd_dnl_c1_2= -4.84317e-02
+ dcd_dnl_c1_3= 4.37550e-02
+ dcd_dnl_c1_4= 5.28165e-02
+ dcd_dnl_c1_5= 4.04412e-02
+ dcd_dnl_c1_6= 3.51313e-02
+ dcd_dnl_c2_1= -1.32107e-01
+ dcd_dnl_c2_2= -4.67422e-02
+ dcd_dnl_c2_3= 4.45921e-02
+ dcd_dnl_c2_4= 4.97620e-02
+ dcd_dnl_c2_5= 5.30282e-02
+ dcd_dnl_c2_6= 3.14671e-02
+ dcd_dnl_c3_1= -1.28153e-01
+ dcd_dnl_c3_2= -5.06667e-02
+ dcd_dnl_c3_3= 4.32930e-02
+ dcd_dnl_c3_4= 4.86915e-02
+ dcd_dnl_c3_5= 4.43677e-02
+ dcd_dnl_c3_6= 4.24672e-02
+ dcd_dnl_c4_1= -1.24373e-01
+ dcd_dnl_c4_2= -6.14242e-02
+ dcd_dnl_c4_3= 4.08321e-02
+ dcd_dnl_c4_4= 5.50154e-02
+ dcd_dnl_c4_5= 5.01558e-02
+ dcd_dnl_c4_6= 3.97937e-02
+ dcd_dnl_c4_7= 4.45432e-02
+ dcd_dnl_c4_8= 4.19783e-02
+ dcd_dnl_c4_9= 5.10814e-02
+ dcd_dnl_c4_10= 3.60401e-02
+ dcd_dnl_c4_11= -7.76251e-02
+ dcd_dnl_c4_12= -9.60179e-02
+ dcd_dnl_c5_7= 5.45006e-02
+ dcd_dnl_c5_8= 1.75211e-02
+ dcd_dnl_c5_9= 6.92247e-02
+ dcd_dnl_c5_10= 2.60438e-02
+ dcd_dnl_c5_11= -6.23633e-02
+ dcd_dnl_c5_12= -1.04927e-01
+ dcd_dnl_c6_7= 2.22898e-02
+ dcd_dnl_c6_8= 3.86391e-02
+ dcd_dnl_c6_9= 6.27704e-02
+ dcd_dnl_c6_10= 4.56863e-02
+ dcd_dnl_c6_11= -9.82536e-02
+ dcd_dnl_c6_12= -7.11320e-02
+ dcd_dnl_c7_7= 2.46679e-02
+ dcd_dnl_c7_8= 4.63835e-02
+ dcd_dnl_c7_9= 6.44751e-02
+ dcd_dnl_c7_10= 3.02653e-02
+ dcd_dnl_c7_11= -7.54852e-02
+ dcd_dnl_c7_12= -9.03067e-02
+ dcd_dnl_c8_7= 3.38187e-02
+ dcd_dnl_c8_8= 5.29875e-02
+ dcd_dnl_c8_9= 3.61596e-02
+ dcd_dnl_c8_10= 3.67293e-02
+ dcd_dnl_c8_11= -7.83351e-02
+ dcd_dnl_c8_12= -8.13601e-02
+ dcd_inl_c0_1= -1.35080e-01
+ dcd_inl_c0_2= -1.67731e-01
+ dcd_inl_c0_3= -1.19754e-01
+ dcd_inl_c0_4= -7.75536e-02
+ dcd_inl_c0_5= -4.22923e-02
+ dcd_inl_c0_6= 0.00000e+00
+ dcd_inl_c1_1= -1.23712e-01
+ dcd_inl_c1_2= -1.72144e-01
+ dcd_inl_c1_3= -1.28389e-01
+ dcd_inl_c1_4= -7.55725e-02
+ dcd_inl_c1_5= -3.51313e-02
+ dcd_inl_c1_6= 0.00000e+00
+ dcd_inl_c2_1= -1.32107e-01
+ dcd_inl_c2_2= -1.78849e-01
+ dcd_inl_c2_3= -1.34257e-01
+ dcd_inl_c2_4= -8.44953e-02
+ dcd_inl_c2_5= -3.14671e-02
+ dcd_inl_c2_6= 2.22045e-16
+ dcd_inl_c3_1= -1.28153e-01
+ dcd_inl_c3_2= -1.78819e-01
+ dcd_inl_c3_3= -1.35526e-01
+ dcd_inl_c3_4= -8.68349e-02
+ dcd_inl_c3_5= -4.24672e-02
+ dcd_inl_c3_6= 0.00000e+00
+ dcd_inl_c4_1= -1.24373e-01
+ dcd_inl_c4_2= -1.85797e-01
+ dcd_inl_c4_3= -1.44965e-01
+ dcd_inl_c4_4= -8.99495e-02
+ dcd_inl_c4_5= -3.97937e-02
+ dcd_inl_c4_6= 0.00000e+00
+ dcd_inl_c4_7= 8.43369e-02
+ dcd_inl_c4_8= 1.26315e-01
+ dcd_inl_c4_9= 1.77397e-01
+ dcd_inl_c4_10= 2.13437e-01
+ dcd_inl_c4_11= 1.35812e-01
+ dcd_inl_c4_12= 3.97937e-02
+ dcd_inl_c5_7= 5.45006e-02
+ dcd_inl_c5_8= 7.20217e-02
+ dcd_inl_c5_9= 1.41246e-01
+ dcd_inl_c5_10= 1.67290e-01
+ dcd_inl_c5_11= 1.04927e-01
+ dcd_inl_c5_12= -2.22045e-16
+ dcd_inl_c6_7= 2.22898e-02
+ dcd_inl_c6_8= 6.09289e-02
+ dcd_inl_c6_9= 1.23699e-01
+ dcd_inl_c6_10= 1.69386e-01
+ dcd_inl_c6_11= 7.11320e-02
+ dcd_inl_c6_12= -2.22045e-16
+ dcd_inl_c7_7= 2.46679e-02
+ dcd_inl_c7_8= 7.10515e-02
+ dcd_inl_c7_9= 1.35527e-01
+ dcd_inl_c7_10= 1.65792e-01
+ dcd_inl_c7_11= 9.03067e-02
+ dcd_inl_c7_12= 0.00000e+00
+ dcd_inl_c8_7= 3.38187e-02
+ dcd_inl_c8_8= 8.68062e-02
+ dcd_inl_c8_9= 1.22966e-01
+ dcd_inl_c8_10= 1.59695e-01
+ dcd_inl_c8_11= 8.13601e-02
+ dcd_inl_c8_12= -2.22045e-16
+  tpwh_c0f0= 4.40051e-11  targ= 4.18106e-08  trig= 4.17666e-08
+  tpwh_c0f1= 4.47425e-11  targ= 4.12114e-08  trig= 4.11667e-08
+  tpwh_c0f2= 4.53775e-11  targ= 4.06121e-08  trig= 4.05667e-08
+  tpwh_c0f3= 4.59296e-11  targ= 4.00127e-08  trig= 3.99668e-08
+  tpwh_c0f4= 4.64898e-11  targ= 3.94133e-08  trig= 3.93668e-08
+  tpwh_c0f5= 4.70559e-11  targ= 3.88139e-08  trig= 3.87668e-08
+  tpwh_c0f6= 4.76139e-11  targ= 3.82144e-08  trig= 3.81668e-08
+  tpwh_c1f0= 4.72385e-11  targ= 3.76107e-08  trig= 3.75635e-08
+  tpwh_c1f1= 4.79663e-11  targ= 3.70115e-08  trig= 3.69635e-08
+  tpwh_c1f2= 4.86179e-11  targ= 3.64122e-08  trig= 3.63636e-08
+  tpwh_c1f3= 4.91791e-11  targ= 3.58127e-08  trig= 3.57636e-08
+  tpwh_c1f4= 4.97309e-11  targ= 3.52133e-08  trig= 3.51636e-08
+  tpwh_c1f5= 5.02938e-11  targ= 3.46139e-08  trig= 3.45636e-08
+  tpwh_c1f6= 5.08631e-11  targ= 3.40145e-08  trig= 3.39636e-08
+  tpwh_c2f0= 5.03277e-11  targ= 3.34107e-08  trig= 3.33603e-08
+  tpwh_c2f1= 5.10692e-11  targ= 3.28114e-08  trig= 3.27604e-08
+  tpwh_c2f2= 5.17267e-11  targ= 3.22121e-08  trig= 3.21604e-08
+  tpwh_c2f3= 5.22900e-11  targ= 3.16127e-08  trig= 3.15604e-08
+  tpwh_c2f4= 5.28482e-11  targ= 3.10133e-08  trig= 3.09604e-08
+  tpwh_c2f5= 5.34070e-11  targ= 3.04139e-08  trig= 3.03605e-08
+  tpwh_c2f6= 5.39848e-11  targ= 2.98144e-08  trig= 2.97604e-08
+  tpwh_c3f0= 5.32330e-11  targ= 2.92106e-08  trig= 2.91574e-08
+  tpwh_c3f1= 5.39673e-11  targ= 2.86114e-08  trig= 2.85574e-08
+  tpwh_c3f2= 5.46274e-11  targ= 2.80120e-08  trig= 2.79574e-08
+  tpwh_c3f3= 5.51921e-11  targ= 2.74126e-08  trig= 2.73574e-08
+  tpwh_c3f4= 5.57501e-11  targ= 2.68132e-08  trig= 2.67574e-08
+  tpwh_c3f5= 5.63133e-11  targ= 2.62137e-08  trig= 2.61574e-08
+  tpwh_c3f6= 5.68777e-11  targ= 2.56143e-08  trig= 2.55574e-08
+  tpwh_c4f0= 5.63055e-11  targ= 2.50105e-08  trig= 2.49542e-08
+  tpwh_c4f1= 5.70376e-11  targ= 2.44113e-08  trig= 2.43543e-08
+  tpwh_c4f2= 5.77072e-11  targ= 2.38120e-08  trig= 2.37543e-08
+  tpwh_c4f3= 5.82759e-11  targ= 2.32125e-08  trig= 2.31543e-08
+  tpwh_c4f4= 5.88268e-11  targ= 2.26131e-08  trig= 2.25543e-08
+  tpwh_c4f5= 5.93849e-11  targ= 2.20137e-08  trig= 2.19543e-08
+ tpwh_c4f6_up= 3.94988e-11  targ= 3.93996e-10  trig= 3.54497e-10
+ tpwh_c4f6_down= 5.99513e-11  targ= 2.14142e-08  trig= 2.13543e-08
+  tpwh_c4f7= 4.00680e-11  targ= 9.93964e-10  trig= 9.53896e-10
+  tpwh_c4f8= 4.06380e-11  targ= 1.59399e-09  trig= 1.55335e-09
+  tpwh_c4f9= 4.11976e-11  targ= 2.19401e-09  trig= 2.15281e-09
+ tpwh_c4f10= 4.17741e-11  targ= 2.79398e-09  trig= 2.75220e-09
+ tpwh_c4f11= 4.24638e-11  targ= 3.39392e-09  trig= 3.35146e-09
+ tpwh_c4f12= 4.31697e-11  targ= 3.99392e-09  trig= 3.95075e-09
+  tpwh_c5f6= 4.26996e-11  targ= 4.59730e-09  trig= 4.55460e-09
+  tpwh_c5f7= 4.32542e-11  targ= 5.19725e-09  trig= 5.15399e-09
+  tpwh_c5f8= 4.38499e-11  targ= 5.79730e-09  trig= 5.75345e-09
+  tpwh_c5f9= 4.43925e-11  targ= 6.39730e-09  trig= 6.35290e-09
+ tpwh_c5f10= 4.49783e-11  targ= 6.99726e-09  trig= 6.95228e-09
+ tpwh_c5f11= 4.56519e-11  targ= 7.59718e-09  trig= 7.55153e-09
+ tpwh_c5f12= 4.63687e-11  targ= 8.19719e-09  trig= 8.15082e-09
+  tpwh_c6f6= 4.53777e-11  targ= 8.80005e-09  trig= 8.75468e-09
+  tpwh_c6f7= 4.59715e-11  targ= 9.40004e-09  trig= 9.35406e-09
+  tpwh_c6f8= 4.65498e-11  targ= 1.00001e-08  trig= 9.95351e-09
+  tpwh_c6f9= 4.71024e-11  targ= 1.06001e-08  trig= 1.05530e-08
+ tpwh_c6f10= 4.76717e-11  targ= 1.12000e-08  trig= 1.11523e-08
+ tpwh_c6f11= 4.83853e-11  targ= 1.18000e-08  trig= 1.17516e-08
+ tpwh_c6f12= 4.90732e-11  targ= 1.23999e-08  trig= 1.23509e-08
+  tpwh_c7f6= 4.83947e-11  targ= 1.30031e-08  trig= 1.29547e-08
+  tpwh_c7f7= 4.89872e-11  targ= 1.36031e-08  trig= 1.35541e-08
+  tpwh_c7f8= 4.95591e-11  targ= 1.42031e-08  trig= 1.41535e-08
+  tpwh_c7f9= 5.01108e-11  targ= 1.48031e-08  trig= 1.47530e-08
+ tpwh_c7f10= 5.06977e-11  targ= 1.54030e-08  trig= 1.53523e-08
+ tpwh_c7f11= 5.13897e-11  targ= 1.60030e-08  trig= 1.59516e-08
+ tpwh_c7f12= 5.20973e-11  targ= 1.66029e-08  trig= 1.65509e-08
+  tpwh_c8f6= 5.16200e-11  targ= 1.72063e-08  trig= 1.71547e-08
+  tpwh_c8f7= 5.21978e-11  targ= 1.78063e-08  trig= 1.77541e-08
+  tpwh_c8f8= 5.27547e-11  targ= 1.84063e-08  trig= 1.83535e-08
+  tpwh_c8f9= 5.33282e-11  targ= 1.90063e-08  trig= 1.89530e-08
+ tpwh_c8f10= 5.39008e-11  targ= 1.96062e-08  trig= 1.95523e-08
+ tpwh_c8f11= 5.45890e-11  targ= 2.02062e-08  trig= 2.01516e-08
+ tpwh_c8f12= 5.52807e-11  targ= 2.08061e-08  trig= 2.07508e-08
+  tcyc_c0f0= 9.99993e-11  targ= 4.18666e-08  trig= 4.17666e-08
+  tcyc_c0f1= 1.00001e-10  targ= 4.12667e-08  trig= 4.11667e-08
+  tcyc_c0f2= 1.00003e-10  targ= 4.06667e-08  trig= 4.05667e-08
+  tcyc_c0f3= 9.99998e-11  targ= 4.00668e-08  trig= 3.99668e-08
+  tcyc_c0f4= 1.00002e-10  targ= 3.94668e-08  trig= 3.93668e-08
+  tcyc_c0f5= 1.00001e-10  targ= 3.88668e-08  trig= 3.87668e-08
+  tcyc_c0f6= 9.99986e-11  targ= 3.82668e-08  trig= 3.81668e-08
+  tcyc_c1f0= 1.00000e-10  targ= 3.76635e-08  trig= 3.75635e-08
+  tcyc_c1f1= 9.99997e-11  targ= 3.70635e-08  trig= 3.69635e-08
+  tcyc_c1f2= 9.99976e-11  targ= 3.64636e-08  trig= 3.63636e-08
+  tcyc_c1f3= 9.99991e-11  targ= 3.58636e-08  trig= 3.57636e-08
+  tcyc_c1f4= 1.00000e-10  targ= 3.52636e-08  trig= 3.51636e-08
+  tcyc_c1f5= 9.99984e-11  targ= 3.46636e-08  trig= 3.45636e-08
+  tcyc_c1f6= 9.99987e-11  targ= 3.40636e-08  trig= 3.39636e-08
+  tcyc_c2f0= 1.00000e-10  targ= 3.34603e-08  trig= 3.33603e-08
+  tcyc_c2f1= 1.00000e-10  targ= 3.28604e-08  trig= 3.27604e-08
+  tcyc_c2f2= 1.00002e-10  targ= 3.22604e-08  trig= 3.21604e-08
+  tcyc_c2f3= 9.99990e-11  targ= 3.16604e-08  trig= 3.15604e-08
+  tcyc_c2f4= 9.99959e-11  targ= 3.10604e-08  trig= 3.09604e-08
+  tcyc_c2f5= 1.00000e-10  targ= 3.04605e-08  trig= 3.03605e-08
+  tcyc_c2f6= 9.99996e-11  targ= 2.98604e-08  trig= 2.97604e-08
+  tcyc_c3f0= 1.00000e-10  targ= 2.92574e-08  trig= 2.91574e-08
+  tcyc_c3f1= 9.99974e-11  targ= 2.86574e-08  trig= 2.85574e-08
+  tcyc_c3f2= 1.00001e-10  targ= 2.80574e-08  trig= 2.79574e-08
+  tcyc_c3f3= 1.00002e-10  targ= 2.74574e-08  trig= 2.73574e-08
+  tcyc_c3f4= 1.00000e-10  targ= 2.68574e-08  trig= 2.67574e-08
+  tcyc_c3f5= 1.00000e-10  targ= 2.62574e-08  trig= 2.61574e-08
+  tcyc_c3f6= 9.99992e-11  targ= 2.56574e-08  trig= 2.55574e-08
+  tcyc_c4f0= 9.99999e-11  targ= 2.50542e-08  trig= 2.49542e-08
+  tcyc_c4f1= 9.99996e-11  targ= 2.44543e-08  trig= 2.43543e-08
+  tcyc_c4f2= 1.00000e-10  targ= 2.38543e-08  trig= 2.37543e-08
+  tcyc_c4f3= 1.00003e-10  targ= 2.32543e-08  trig= 2.31543e-08
+  tcyc_c4f4= 9.99994e-11  targ= 2.26543e-08  trig= 2.25543e-08
+  tcyc_c4f5= 1.00000e-10  targ= 2.20543e-08  trig= 2.19543e-08
+ tcyc_c4f6_up= 9.99945e-11  targ= 4.54492e-10  trig= 3.54497e-10
+ tcyc_c4f6_down= 9.99972e-11  targ= 2.14543e-08  trig= 2.13543e-08
+  tcyc_c4f7= 9.99995e-11  targ= 1.05390e-09  trig= 9.53896e-10
+  tcyc_c4f8= 1.00000e-10  targ= 1.65335e-09  trig= 1.55335e-09
+  tcyc_c4f9= 9.99972e-11  targ= 2.25281e-09  trig= 2.15281e-09
+ tcyc_c4f10= 9.99991e-11  targ= 2.85220e-09  trig= 2.75220e-09
+ tcyc_c4f11= 1.00000e-10  targ= 3.45146e-09  trig= 3.35146e-09
+ tcyc_c4f12= 9.99956e-11  targ= 4.05075e-09  trig= 3.95075e-09
+  tcyc_c5f6= 1.00003e-10  targ= 4.65460e-09  trig= 4.55460e-09
+  tcyc_c5f7= 9.99970e-11  targ= 5.25399e-09  trig= 5.15399e-09
+  tcyc_c5f8= 1.00000e-10  targ= 5.85345e-09  trig= 5.75345e-09
+  tcyc_c5f9= 1.00000e-10  targ= 6.45290e-09  trig= 6.35290e-09
+ tcyc_c5f10= 9.99999e-11  targ= 7.05228e-09  trig= 6.95228e-09
+ tcyc_c5f11= 9.99986e-11  targ= 7.65153e-09  trig= 7.55153e-09
+ tcyc_c5f12= 9.99987e-11  targ= 8.25082e-09  trig= 8.15082e-09
+  tcyc_c6f6= 1.00001e-10  targ= 8.85468e-09  trig= 8.75468e-09
+  tcyc_c6f7= 1.00001e-10  targ= 9.45407e-09  trig= 9.35406e-09
+  tcyc_c6f8= 1.00004e-10  targ= 1.00535e-08  trig= 9.95351e-09
+  tcyc_c6f9= 1.00003e-10  targ= 1.06530e-08  trig= 1.05530e-08
+ tcyc_c6f10= 1.00001e-10  targ= 1.12523e-08  trig= 1.11523e-08
+ tcyc_c6f11= 9.99996e-11  targ= 1.18516e-08  trig= 1.17516e-08
+ tcyc_c6f12= 1.00001e-10  targ= 1.24509e-08  trig= 1.23509e-08
+  tcyc_c7f6= 1.00001e-10  targ= 1.30547e-08  trig= 1.29547e-08
+  tcyc_c7f7= 1.00001e-10  targ= 1.36541e-08  trig= 1.35541e-08
+  tcyc_c7f8= 1.00002e-10  targ= 1.42535e-08  trig= 1.41535e-08
+  tcyc_c7f9= 1.00000e-10  targ= 1.48530e-08  trig= 1.47530e-08
+ tcyc_c7f10= 1.00000e-10  targ= 1.54523e-08  trig= 1.53523e-08
+ tcyc_c7f11= 9.99984e-11  targ= 1.60516e-08  trig= 1.59516e-08
+ tcyc_c7f12= 9.99986e-11  targ= 1.66509e-08  trig= 1.65509e-08
+  tcyc_c8f6= 9.99977e-11  targ= 1.72547e-08  trig= 1.71547e-08
+  tcyc_c8f7= 1.00001e-10  targ= 1.78541e-08  trig= 1.77541e-08
+  tcyc_c8f8= 1.00001e-10  targ= 1.84535e-08  trig= 1.83535e-08
+  tcyc_c8f9= 1.00001e-10  targ= 1.90530e-08  trig= 1.89530e-08
+ tcyc_c8f10= 9.99995e-11  targ= 1.96523e-08  trig= 1.95523e-08
+ tcyc_c8f11= 9.99996e-11  targ= 2.02516e-08  trig= 2.01516e-08
+ tcyc_c8f12= 1.00000e-10  targ= 2.08508e-08  trig= 2.07508e-08
+ t_delay_c4f6_up= 3.50266e-10
+ t_delay_c4f7= 9.49763e-10
+ t_delay_c4f8= 1.54923e-09
+ t_delay_c4f9= 2.14870e-09
+ t_delay_c4f10= 2.74819e-09
+ t_delay_c4f11= 3.34755e-09
+ t_delay_c4f12= 3.94686e-09
+ t_delay_c5f6= 4.55037e-09
+ t_delay_c5f7= 5.14986e-09
+ t_delay_c5f8= 5.74933e-09
+ t_delay_c5f9= 6.34879e-09
+ t_delay_c5f10= 6.94827e-09
+ t_delay_c5f11= 7.54763e-09
+ t_delay_c5f12= 8.14693e-09
+ t_delay_c6f6= 8.75045e-09
+ t_delay_c6f7= 9.34994e-09
+ t_delay_c6f8= 9.94939e-09
+ t_delay_c6f9= 1.05489e-08
+ t_delay_c6f10= 1.11483e-08
+ t_delay_c6f11= 1.17477e-08
+ t_delay_c6f12= 1.23470e-08
+ t_delay_c7f6= 1.29505e-08
+ t_delay_c7f7= 1.35499e-08
+ t_delay_c7f8= 1.41494e-08
+ t_delay_c7f9= 1.47489e-08
+ t_delay_c7f10= 1.53483e-08
+ t_delay_c7f11= 1.59477e-08
+ t_delay_c7f12= 1.65470e-08
+ t_delay_c8f6= 1.71505e-08
+ t_delay_c8f7= 1.77499e-08
+ t_delay_c8f8= 1.83494e-08
+ t_delay_c8f9= 1.89488e-08
+ t_delay_c8f10= 1.95483e-08
+ t_delay_c8f11= 2.01477e-08
+ t_delay_c8f12= 2.07470e-08
+ t_delay_c4f6_down= 2.13501e-08
+ t_delay_c4f5= 2.19501e-08
+ t_delay_c4f4= 2.25501e-08
+ t_delay_c4f3= 2.31500e-08
+ t_delay_c4f2= 2.37500e-08
+ t_delay_c4f1= 2.43500e-08
+ t_delay_c4f0= 2.49500e-08
+ t_delay_c3f6= 2.55531e-08
+ t_delay_c3f5= 2.61531e-08
+ t_delay_c3f4= 2.67531e-08
+ t_delay_c3f3= 2.73531e-08
+ t_delay_c3f2= 2.79531e-08
+ t_delay_c3f1= 2.85531e-08
+ t_delay_c3f0= 2.91531e-08
+ t_delay_c2f6= 2.97557e-08
+ t_delay_c2f5= 3.03557e-08
+ t_delay_c2f4= 3.09557e-08
+ t_delay_c2f3= 3.15557e-08
+ t_delay_c2f2= 3.21557e-08
+ t_delay_c2f1= 3.27557e-08
+ t_delay_c2f0= 3.33556e-08
+ t_delay_c1f6= 3.39584e-08
+ t_delay_c1f5= 3.45585e-08
+ t_delay_c1f4= 3.51584e-08
+ t_delay_c1f3= 3.57584e-08
+ t_delay_c1f2= 3.63584e-08
+ t_delay_c1f1= 3.69584e-08
+ t_delay_c1f0= 3.75583e-08
+ t_delay_c0f6= 3.81616e-08
+ t_delay_c0f5= 3.87616e-08
+ t_delay_c0f4= 3.93615e-08
+ t_delay_c0f3= 3.99615e-08
+ t_delay_c0f2= 4.05615e-08
+ t_delay_c0f1= 4.11614e-08
+ t_delay_c0f0= 4.17614e-08
+
+    measure file 'dca_stepsize_full.mt0'
+    # time points: 69984
+End of Transient Analysis                               
+Resource Usage for Transient Analysis(self/total): 392.3/399.5 sec (cpu), 196.0/204.0 sec (elapsed), 91.8/2397.8 MB
+
+**** Total skipped warning information
+       106	"'...' removed due to shorted terminals ..."
+      3233	"'...:...' removed due to a dangling terminal"
+      2968	"duplicated ...param '...' ..."
+       180	"node '...:...' has only 1 connection to a ...."
+        36	"resistor '...' in ... has small R"
+         1	"unknown option ... "
+         3	"value for option ... is overwritten "
+        31	"warning"
+**** 
+
+Simulation ended at Mon Jun  2 08:50:31 2025
+
+Total CPU time: 399.5 seconds (0.11 hours), 2 threads
+Total memory usage: peak= 2397.8 MB, avg= 2342.5 MB
+  **<TMI notice>** : Self-heating effect (SHE) is not enabled in some devices. It can be enabled according to the description in the usage guide.
+License: Checked in CKTSIMMC(1) successfully at Mon Jun  2 08:50:31 2025
+License: Checked in CKTSIMSPICE(2) successfully at Mon Jun  2 08:50:31 2025
+License: Checked in PRIMESIMSPICE_LIC(1) successfully at Mon Jun  2 08:50:31 2025
+
+Total elapsed time: 205.0 seconds (0.06 hours)
+PrimeSim Successfully Completed at Mon Jun  2 08:50:32 2025
+
